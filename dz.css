@@ -6,6 +6,11 @@ body, html {
     font-family: Sans-Serif;
 }
 
+img {
+  height: 50px;
+  width: 50px;
+}
+
 .moving-text-container {
     color: white;
     text-align: center;
@@ -43,4 +48,4 @@ footer {
   text-align: center;
   text-transform: capitalize;
   color: #787878;
-}
+}}
