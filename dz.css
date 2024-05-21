@@ -7,40 +7,15 @@ body, html {
 }
 
 img {
+  width: 150px;
   height: 100px;
-  width: 100px;
-}
-
-.moving-text-container {
-    color: white;
-    text-align: center;
-    padding: 21em 0;
-    background: black;
-} 
-
-.moving-text {
-  font-size: 45px;
-  color: red;
-  -webkit-text-stroke: 1px black;
-  font-family: Sans-Serif;
-  margin: 10px;
-  background: red;
-  border: 1px solid white;
-  border-radius: 15px;
-  display: inline;
-  font-style: italic;
-  position: relative; /* Menjadikan posisi relatif agar bisa menggunakan transform */
-  animation: bounce 2s ease-in-out infinite; /* Menggunakan animasi bounce */
-}
-
-@keyframes bounce {
-  0%, 100% { top: 0; } /* Nilai awal dan akhir posisi */
-  50% { top: -20px; } /* Nilai posisi saat pertengahan animasi */
 }
 
 .text {
-  color: white;
+  color: magenta;
   font-weight: bold;
+  font-style: italic;
+  text-align: center;
   text-transform: capitalize;
 }
 
@@ -48,4 +23,4 @@ footer {
   text-align: center;
   text-transform: capitalize;
   color: #787878;
-}}
+}
