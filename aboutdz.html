@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="https://i.ibb.co.com/sww5SKQ/dzlogo.png" type="image/x-icon" />
+    <title>DZ</title>
+    <style>
+    
+    body {
+      background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEiIwAGGSsifxNwnkReXYDmDFm7Oa4y2t4m6wZISOC_PNKP7dL4euhYp2TRE6IVTppv4oL5QRLsDa5OV01GmLp5_sMddHbU0DAf5GfWrUNWDCNJMw_5btux2l7kYAUoj_RVgyKus3BedmIXiYgKm3r-ktrEBD7W7lTuLd0V4dzgNzcL4cELvIS_X7sVjgx8=w282);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			height: 100% 100%;
+			font-family: montserrat;
+			}
+   
+   .fa-bars {
+     border: 2px groove white;
+     border-radius: 5px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+   }
+   
+   *{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+     
+   }
+   
+   nav {
+     background: magenta;
+     height: 80px;
+     width: 100%;
+   }
+   
+   label.logo {
+     color: white;
+     font-size: 35px;
+     line-height: 80px;
+     padding: 0 100px;
+     font-weight: bold;
+   }
+   
+   nav ul {
+     float: right;
+     margin-right: 20px;
+   }
+   
+   nav ul li {
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+   }
+   
+   nav ul li a {
+     color: white;
+     font-size: 17px;
+     padding: 7px 13px;
+     border-radius: 3px;
+     text-transform: uppercase;
+   }
+   
+   a.active,a:hover {
+     background: magenta;
+     transition: .5s;
+   }
+   
+   .checkbtn {
+     font-size: 30px;
+     color: white;
+     float: right;
+     line-height: 80px;
+     margin-right: 40px;
+     cursor: pointer;
+     display: none;
+   }
+   
+   
+   #check {
+     display: none;
+   }
+   
+   @media (max-width: 952px){
+     label.logo {
+       font-size: 30px;
+       padding-left: 50px;
+     }
+     nav ul li a {
+       font-size: 16px;
+     }
+   }
+   @media (max-width: 858px){
+     .checkbtn {
+       display: block;
+     }
+     ul {
+       position: absolute;
+       width: 100%;
+       height: 100vh;
+       top: 80px;
+       background: purple;
+       left: -100%;
+       text-align: center;
+       transition: all .5s;
+     }
+     nav ul li {
+       display: block;
+       margin: 50px 0;
+       line-height: 30px;
+     }
+     nav ul li a{
+       font-size: 20px;
+     }
+     a:hover,a.active {
+       background: none;
+        color: magenta;
+     }
+     #check:checked ~ ul{
+       left: 0;
+      }
+   }
+   
+   h2 {
+     text-align: center;
+     color: black;
+     -webkit-text-stroke: 1px magenta;
+     text-decoration: underline;
+   }
+   
+   .text-satu {
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     text-transform: capitalize;
+     font-family: 'Andika', Sans-Serif;
+   }
+   
+   footer {
+     color: #dddfdfd6;
+     text-align: center;
+     font-family: Sans-Serif;
+     font-size: 12px;
+     /*background: #F0F0F0;
+     height: 55px;
+     width: 100%;
+     line-height: 55px;*/
+   }
+   
+   .copyright-nav {
+     color: #737373;
+     text-align: center;
+     font-family: Sans-Serif;
+     font-size: 15px;
+   }
+   
+   .my-logo {
+     display: block;
+     margin: auto;
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     border: 1px groove white;
+   }
+   
+    </style>
+</head>
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+    <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo">DZ</label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contactdz.html">Contact</a></li>
+      <div class="copyright-nav">
+      <section>&copy; 2023 - <script>document.write(new Date().getFullYear())</script>
+      </div>
+      </ul>
+    </nav>
+    <br>
+    <h2>ABOUT</h2>
+    <p class="text-satu">not yet fixed</p>
+    <br>
+    <footer>&copy; 2023 - <script>document.write(new Date().getFullYear())</script>
+</body>
+      </html>
+  
